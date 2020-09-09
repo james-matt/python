@@ -1,0 +1,59 @@
+Video 251 - Web Dev Overview
+------------
+This is a general overview of web dev in python.
+Build portfolio website.
+
+Video 252 - How websites work.
+-----------
+
+Browser / client - click or type in website.
+
+Internet makes request (who owns the website and which machine owns the website.)
+Communication using HTTP / HTTPS
+
+Server (just a computer)
+Has the files we need.
+- HTML
+- CSS
+- JS
+
+Internet sends response from the server (HTML, CSS, JSS)
+Communication using http / HTTPS
+
+Renders that response
+
+Python is used on the server to take in a request and return the response.
+
+Because of the HTTP protocol language of the backend do not matter
+As long as you can take in a request and return HTML CSS JavaScript
+that is all the client cares about.
+
+Video 253 - How Websites Work 2
+
+Network tab of chrome to view html, css, javascript.
+Type document is HTML.
+You can filter files by type in chrome.
+recommend document, js, css filters.
+
+HTML - file
+CSS - style
+IMGs
+JavaScript - Interactive
+
+Video 254 - Build First Server
+---------------------
+
+- DOCTYPE
+    - html
+        - head
+            - link (CSS)
+        - body
+            - h1 (CONTENT)
+            - script (JavaScript)
+
+Web Server - Specialized
+Build a server using python
+so people can access or website
+
+Video 255 - Setting up Flask
+--------------------

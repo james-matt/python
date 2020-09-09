@@ -1,0 +1,33 @@
+How does a website work?
+
+- Client makes a request.
+- HTTP request is sent to the server.
+- Server accepts the request.
+- HTTP response is sent back. (contains html, css, javascript)
+- Client renders response files.
+
+How can we track the files sent on a request?
+
+- Record the network in chrome dev tools.
+
+What are the order the files come back in?
+
+- HTML
+- Then CSS, IMG, JS in order they appear.
+- CSS at top in the head using link tags.
+- JS at the bottom of the body using script tags.
+
+Why HTTP / HTTPS?
+
+- Communication between client and server without needing to use a specific language.
+
+What is the structure of a new html document?
+
+- DOCTYPE
+    - html
+        - head
+            - link (CSS)
+        - body
+            - h1 (CONTENT)
+            - script (JavaScript)
+
