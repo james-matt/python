@@ -1,0 +1,15 @@
+How to communicate with a database in flask?
+
+You can use a ORM package or psycopg2.
+
+How to communicate without a orm with a postgres database in python?
+
+posycopg2 to open a connection and write queries.
+
+What do the results back look like?
+
+Lists and dictionaries for each record.
+
+Unanswered:
+
+How to implement auth in flask?
