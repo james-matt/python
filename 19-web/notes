@@ -56,4 +56,37 @@ Build a server using python
 so people can access or website
 
 Video 255 - Setting up Flask
---------------------
+-------------------
+- Using python to build a server
+- python http server
+- http.server (python standard library)
+- flask created to be production ready
+- flask recommends virtual env
+- python3 -m venv venv
+- creates virtual env
+- . venv/bin/activate
+
+Video 256 - Building a flask server
+-------------------
+- create virtual environment
+- activate env
+- pip install Flask
+- app = Flask(__name__) creates flask app
+- @app.route('/') - decorator for the url path
+- def hello_world(): - function that returns a output.
+- export FLASK_APP=server.py
+- flask run
+- runs the exported script
+- export FLASK_ENV=development
+- debug mode on - when you change, the server refreshes.
+
+Video 257 - Flask Template
+------------------
+- create blog root
+- from flask import render_template
+- looks in the templates directory
+- path from the templates directory in the app.
+- render_template('index.html')
+
+Video 258 - Flask Static Files
+-----------------

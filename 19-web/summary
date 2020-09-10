@@ -32,3 +32,29 @@ What is the structure of a new html document?
             - script (JavaScript)
 
 Also looked up flask auth and database connection packages.
+
+What is the python core module to build a http server?
+
+From the http module import server (bare bones)
+
+Why do we use flask if we have this core module?
+
+It has a larger tool set and is production ready.
+
+How can I install a venv in python3?
+
+python3 -m venv venv
+
+What are the steps to setting up a python flask http server?
+
+- python3 -m venv venv
+- . /venv/bin/activate
+- pip install Flask
+- export FLASK_APP=server.py
+- export FLASK_ENV=development
+- create python file (server.py)
+- from flask import Flask, render_template
+- app = Flask(__name__)
+- @app.route('/')
+- return render_template('index.html')
+- render_template looks in the templates directory
